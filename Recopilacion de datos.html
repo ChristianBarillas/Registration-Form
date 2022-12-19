@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="capa.js"></script>
+</head>
+<body>
+
+    <table border="1" style="border-collapse: collapse">
+        <caption>Formulario de registro</caption>
+        <thead>
+            <tr class="titulo1">
+                <th colspan="2">Informacion del estudiante</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+
+
+
+<tr>
+    <td id="nombre">Nombre</td>
+    <td><input id='inputcaja'type="text" placeholder =" Inserte su nombre" ></td>
+</tr>
+
+
+
+<tr>
+    <td id="apellido">Apellido</td>
+    <td><input type="text" placeholder ="Inserte su apellido"></td>
+</tr>
+
+
+
+<tr>
+    <td>Curso</td>
+
+    <td>
+       <!-- <label>Curso de programacion</label> -->
+        <input list="cursos" placeholder="Cursos de programacion"/>
+
+        <datalist id="cursos">
+            <option value="Css"></option>
+            <option value="Javascript"></option>
+            <option value ="Html" ></option>
+            <option value="React"></option>
+
+
+
+        </datalist>
+    
+    </td>
+</tr>
+
+
+
+<tr>
+    <td id="direccion">Direccion</td>
+    <td>
+        <textarea placeholder="Comentario" rows ="5" cols ="20" name="direc" > </textarea>
+    
+    </td>
+</tr>
+
+
+
+<tr>
+    <td>Telefono</td>
+    <td> 
+
+        <input type="tel" >
+        <label for="telefono">Telefono alternativo</label>
+        <input type="tel" name="telefono" id="telefono">
+
+    </td>
+
+</tr>
+
+
+
+<tr>
+
+    <td id="genero">Genero</td>
+    <td >
+
+       <input type="radio" name="genero">
+       <label>Masculino</label>
+       <input type="radio" name="genero">
+       <label>Femenino</label>
+
+    </td>
+</tr>
+
+
+
+<tr>
+    <td id="correo">Correo Electronico</td>
+    <td>
+        <input type="email">
+    </td>
+</tr>
+
+
+
+
+<tr>
+    <td>Fecha de ingreso</td>
+    <td>
+    <input type="date">
+    <label for="date"> Hora </label>
+    <input type="time">
+    <td>
+      
+</tr>
+
+
+
+<tr>
+    <td>Foto del Estudiante</td>
+    <td>
+<input type="file" name="file" accept="image/png">
+
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr class="titulo2">
+    <th colspan = "2"> Informacion de Familiar</th>
+</tr>
+
+
+
+
+<tr>
+    <td>Nombre</td>
+    <td><input type="text"></td>
+</tr>
+
+
+
+
+<tr>
+    <td>Apellido</td>
+    <td><input type="text"></td>
+</tr>
+
+
+
+
+<tr>
+    <td>Telefono</td>
+    <td><input type="tel">
+        <label>Telefono del trabajo</label>
+    <input type="tel">
+    
+    </td>
+   
+</tr>
+
+
+
+<tr>
+    <td> Genero</td>
+    <td>
+        
+<input type="radio" name="genero">
+<label>Masculino</label>
+
+<input type="radio" name="genero">
+<label >Femenino</label>
+
+<input type="radio" name="genero">
+<label >Bipolar</label>
+
+
+    </td>
+</tr>
+
+
+
+<tr>
+    <td>Correo electronico</td>
+    <td>
+<input type ='email'>
+
+    </td>
+</tr>
+
+
+
+<tr>
+    <td colspan ='2'> <input type="checkbox"> <label> Acepto los terminos y condiciones que me imponen </label> </td>
+</tr>
+
+
+
+
+<tr>
+    <td> <button> Registrar Datos </button></td>
+</tr>
+
+
+
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
+
